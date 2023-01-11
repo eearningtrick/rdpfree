@@ -1,0 +1,110 @@
+Who you can get Free RDP For Lifetime.?
+
+Its simply you can get free RDP follow few steps.
+
+Whats is a RDP.?
+
+RDP(Remote DESKTOP PROTOCL) is an extremely popular protocol for remote access to Windows machines. In fact, there are more than 4.9 million RDP Remote DESKTOP PROTOCL)  servers exposed to the Internet, and many more that are accessible from internal networks.
+
+Table of Contents
+
+
+RDP: The Basics
+RDP connection
+connection sequence
+Connection Initiation
+Basic Settings Exchange
+Channel Connection
+Beginning of Security (Security Commencement)
+Secure Settings Exchange
+License
+Capabilities Exchange
+Termination of the Connection (Connection Finalization)
+Data Exchange
+Basic Inputs and Outputs
+RDP channels
+Static Virtual Channels (SVCs)
+Dynamic Virtual Channels (DVC)
+Data compression
+RDP Security
+standard security
+enhanced security
+Network Layer Authentication
+Recent RDP Vulnerabilities
+BlueKeep
+LeaveBlue
+Securing your RDP
+Conclution
+RDP: THE BASICS
+
+Microsoft's Remote Desktop Protocol (RDP) provides remote input also output and display capabilities several network connections for Windows and macbook-based applications running on a server.
+
+
+
+
+RDP CONNECTION
+
+We will simply explain the basics part of an RDP connection. Note that for the sake of simplicity, some details have been omitted. For more information -
+
+CONNECTION SEQUENCE
+
+he RDP connection can be divided into several stages: (see Connection Sequence )
+
+Initiation of the Connection (Connection Initiation)
+Basic Settings Exchange
+Channel Connection
+Beginning of Security (Security Commencement)
+Secure Settings Exchange
+License
+Capabilities Exchange
+Termination of the Connection (Connection Finalization)
+Data Exchange
+2-CONNECTION INITIATION
+
+
+
+Standard RDP security
+
+Default RSA RC4 encryption
+
+Enhanced RDP security
+
+TLS
+CredSSP (TLS + NTLM/Kerberos)
+RDSTLS – RDP enhanced with TLS
+3-CHANNEL CONNECTION
+MCS Erect Domain Request – Height in the MCS domain. Since RDP does not take advantage of advanced MCS topologies, it will be 0.
+MCS Attach User Request – request for a user channel ID
+MCS Attach User Confirm – User Channel ID
+(+5) MCS Channel Join Requests and Confirmations
+4-CONNECTION FINALIZATION
+
+Client/Server Synchronize PDU
+
+Client/Server Control PDU (Cooperate)
+
+Persistent Key List PDU/PDUs (optional)
+
+Font List/Map PDU
+
+5-STATIC VIRTUAL CHANNELS (SVCS)
+
+Examples of SVCs created by default:
+
+I/O channel
+Message Channel
+User Channel
+Server Channel
+6-DYNAMIC VIRTUAL CHANNELS (DVC)
+
+The following figure describes the relationship between the diff. types of channels in RDP-
+
+DATA COMPRESSION
+RDP SECURITY
+STANDARD SECURITY
+ENHANCED SECURITY
+NETWORK LAYER AUTHENTICATION
+RECENT RDP VULNERABILITIES
+BLUEKEEP
+LEAVEBLUE
+SECURING YOUR RDP
